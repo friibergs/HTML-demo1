@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form demo</title>
+</head>
+
+<body>
+    <form method="post" action="">
+        <div>
+            <label for="firstName">First name</label><br />
+            <input type="text" id="firstName" name="firstName" value="" placeholder="Type your first name..." required>
+        </div>
+
+        <div>
+            <label for="surname">Surname</label><br />
+            <input type="text" id="surname" name="surname" value="" placeholder="Type your surname...">
+        </div>
+
+        <div>
+            <label for="email">Email</label><br />
+            <input type="email" id="email" name="email" value="" placeholder="Type your email..." autocomplete="off"
+                required>
+        </div>
+
+        <div>
+            <label for="password">Password</label><br />
+            <input type="password" id="password" name="password" placeholder="Type your password..." required>
+        </div>
+
+        <div>
+            <label for="about">About me</label><br />
+            <textarea id="about" rows="5" cols="25" placeholder="Tell me something about you..." required></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+
+</body>
+
+</html>
